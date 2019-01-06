@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Nemo's",
+    "description": "Nemo First Extension",
+    "version": "1",
+    "author": "Nemo Frenkel",
+   
+   "browser_action": {
+      "default_icon": "tab-icon.png",
+      "default_title": "Nemo Wish You a Good Day"
+    },
+   
+   "chrome_url_overrides" : {
+     "newtab": "newtab.html"
+   },
+   
+    "permissions": ["activeTab"]
+   }
